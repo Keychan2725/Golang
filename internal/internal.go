@@ -1,5 +1,7 @@
-package main
+package internal
 
-func main() {
+import "fmt"
 
+func init() {
+	fmt.Println("ini adalah data internal")
 }
